@@ -1,4 +1,4 @@
-# ContentWritingGame
+# ContentWritingGame (Inspired from https://www.chrisfoxwrites.com/5000-words-per-hour/)
 A Python script that gamifies writing and editing
 
 ## Usage
