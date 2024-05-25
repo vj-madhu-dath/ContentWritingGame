@@ -175,7 +175,7 @@ def editingGame():
 # Add the editingSprint function to the main menu
 def startGame():
     os.system('cls')
-    choice = input("What do you want to do?\n1. Continue First Draft\n2. Start Editing\n3. Exit\n")
+    choice = input("What do you want to do?\n1. writingGame\n2. editingGame\n3. Exit\n")
 
     if choice == "1":
         writingGame()
