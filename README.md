@@ -1,6 +1,10 @@
 # ContentWritingGame (Inspired from https://www.chrisfoxwrites.com/5000-words-per-hour/)
 A Python script that gamifies writing and editing
 
+## Prerequisite
+
+Install Python
+
 ## Usage
 Run the script. It will give you three options:
 1. Writing
