@@ -4,7 +4,6 @@
 
 # %%
 import os
-import signal
 import tkinter as tk
 os.system('cls')
 print("#")
@@ -169,9 +168,6 @@ def editingGame():
     text_area.focus_force()
 
     close_timer = root.after(time, close_after_time)
-
-    root.bind("<Control-c>", lambda event: save_and_close())
-
 
     root.state('zoomed')
     root.mainloop()
