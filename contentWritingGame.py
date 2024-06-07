@@ -20,7 +20,11 @@ import seaborn as sns
 os.system('cls')
 print("#################################")
 os.system('cls')
+import pyautogui
+
 input("Shall we begin the game? (Press Enter)")
+pyautogui.hotkey('alt','enter')
+
 
 def writingGame():
     duration = input("How many minutes do you want to write? ")
